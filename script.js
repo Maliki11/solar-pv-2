@@ -15,7 +15,7 @@ function calculate() {
     // ===== معادلات حسابية أساسية =====
     const panelPower = 550;          // قدرة اللوح الواحد (واط)
     const panelArea = 2.2;           // مساحة اللوح الواحد (م²)
-    const systemEfficiency = 0.75;   // كفاءة النظام الكلية (مع الخسائر)
+    const systemEfficiency = 0.85;   // كفاءة النظام الكلية (مع الخسائر)
     const panelPrice = 850;          // تكلفة اللوح الواحد (ريال)
     const inverterCostPerKW = 700;   // تكلفة المحول لكل كيلوواط (ريال)
     const batteryCostPerKwh = 800;   // تكلفة البطارية لكل كيلوواط ساعي
