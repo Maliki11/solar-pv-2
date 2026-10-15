@@ -1,4 +1,4 @@
-/* ??????? ???? */
+/* إعدادات عامة */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ body {
     margin: 0 auto;
 }
 
-/* ????? */
+/* الرأس */
 header {
     text-align: center;
     margin-bottom: 30px;
@@ -36,7 +36,7 @@ header p {
     font-size: 15px;
 }
 
-/* ???????? */
+/* البطاقات */
 .card {
     background: #ffffff;
     border-radius: 14px;
@@ -53,7 +53,7 @@ header p {
     border-bottom: 2px solid #e8f5e9;
 }
 
-/* ???????? ??????? */
+/* العناوين والحقول */
 label {
     display: block;
     margin-bottom: 7px;
@@ -76,7 +76,7 @@ input:focus, select:focus {
     border-color: #f57c00;
 }
 
-/* ????? ???????? */
+/* أزرار الاختيار */
 .radio-group {
     display: flex;
     gap: 20px;
@@ -91,7 +91,7 @@ input:focus, select:focus {
     cursor: pointer;
 }
 
-/* ?? ?????? */
+/* زر الحساب */
 button {
     width: 100%;
     background: linear-gradient(90deg, #f9a825, #f57c00);
@@ -111,7 +111,7 @@ button:hover {
     box-shadow: 0 4px 12px rgba(245, 124, 0, 0.3);
 }
 
-/* ??????? */
+/* النتائج */
 .results-card {
     background: #fefdf7;
 }
@@ -137,7 +137,7 @@ hr {
     margin: 15px 0;
 }
 
-/* ??????? */
+/* التذييل */
 footer {
     text-align: center;
     margin-top: 20px;
