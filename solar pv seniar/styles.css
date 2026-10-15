@@ -1,0 +1,146 @@
+/* ??????? ???? */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #e3f2fd, #fff8e1);
+    min-height: 100vh;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+/* ????? */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 1px;
+}
+
+header h1 {
+    color: #f57c00;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #666;
+    font-size: 15px;
+}
+
+/* ???????? */
+.card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 25px;
+    margin-bottom: 22px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    font-size: 19px;
+    color: #2e7d32;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8f5e9;
+}
+
+/* ???????? ??????? */
+label {
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 14px;
+    font-weight: 500;
+    color: #444;
+}
+
+input, select {
+    width: 100%;
+    padding: 11px 13px;
+    border: 2px solid #e0e0e0;
+    border-radius: 7px;
+    font-size: 15px;
+    transition: border 0.3s;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #f57c00;
+}
+
+/* ????? ???????? */
+.radio-group {
+    display: flex;
+    gap: 20px;
+    margin: 10px 0 15px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* ?? ?????? */
+button {
+    width: 100%;
+    background: linear-gradient(90deg, #f9a825, #f57c00);
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(245, 124, 0, 0.3);
+}
+
+/* ??????? */
+.results-card {
+    background: #fefdf7;
+}
+
+.results-card p {
+    padding: 8px 0;
+    font-size: 15px;
+    line-height: 1.7;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.results-card p:last-child {
+    border-bottom: none;
+}
+
+.results-card strong {
+    color: #2e7d32;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 15px 0;
+}
+
+/* ??????? */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+    font-size: 13px;
+}
